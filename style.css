@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box
+}
+.conteiner{
+    display:flex;
+    
+}
+.background{
+    background:url("https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center fixed;
+    background-size:cover;
+}
+header{
+    position:absolute;
+    padding:20px 0;
+    background:rgba(69,90,100 ,0.5);
+    text-align:center;
+    color:#fff;
+}
+aside{
+    position:relative;
+    width:35%;
+    padding:0 20px;
+}
+aside section{
+    position:relative;
+    padding:20px;
+    border-radius:4px;
+    background:rgba(245,245,245 ,0.5);
+    position:fixed;
+   
+}
+aside h3{
+    position:relative;
+    text-align:center;
+    padding:30px;
+    margin:auto;
+    text-transform:uppercase;
+}
+aside h3:before{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:40px;
+    height:2px;
+    background:#455A64;
+}
+aside ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    
+}
+aside ul li{
+    padding:10px 20px;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+   
+}
+li{
+    display:inline;
+}
+li a{
+     text-decoration:none;
+     display:block;
+     color:#000;
+     padding:8px 16px;
+     
+}
+li a:hover{
+    background-color:#555;
+    color:white;
+}
+.icon{
+    margin:10px;
+}
+main{
+    position:relative;
+    width:50%;
+    min-height:100vh;
+    align-items:flex-end;
+}
+main section{
+    position:relative;
+    padding:20px;
+    border-radius:4px;
+    background:rgba(245,245,245 ,0.5);
+}
+main h2{
+    font-size:46px;
+    text-align:center;
+    padding:40px 0;
+    margin:auto;
+}
+main p{
+    max-width:600px;
+    display:table;
+    margin:auto;
+    padding-bottom:20px;
+    width:100%;
+}
+footer{
+    margin-top:25px;
+    padding:20px 0;
+    background:rgba(69,90,100 ,0.5);
+    text-align:center;
+    color:#fff;
+}
+
+/*progebar*/
+
+/*Karj채채ri planeerimine ja ettev천tlus*/
+
+main li{
+    display:list-item;
+}
+
+.list{
+    list-style-type: disc;
+}
