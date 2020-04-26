@@ -30,7 +30,7 @@ aside section{
     position:relative;
     padding:20px;
     border-radius:4px;
-    background:rgba(245,245,245 ,0.5);
+    background:rgba(247, 247, 247 ,0.6);
     position:fixed;
    
 }
@@ -93,7 +93,7 @@ main section{
     position:relative;
     padding:20px;
     border-radius:4px;
-    background:rgba(245,245,245 ,0.5);
+    background:rgba(247, 247, 247 ,0.6);
 }
 main h2{
     font-size:46px;
