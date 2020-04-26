@@ -9,6 +9,9 @@
     background:url("https://images.unsplash.com/photo-1585670089589-2f6cd2719a27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center fixed;
     background-size:cover;
 }
+body{
+    font-family: 'Raleway', sans-serif;
+}
 header{
     position:absolute;
     padding:20px 0;
