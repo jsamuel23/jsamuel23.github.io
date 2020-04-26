@@ -57,7 +57,6 @@ aside ul{
 }
 aside ul li{
     padding:10px 20px;
-    border-bottom:1px solid rgba(0,0,0,0.1);
    
 }
 li{
@@ -68,7 +67,10 @@ li a{
      display:block;
      color:#000;
      padding:8px 16px;
-     
+     border-bottom:1px solid rgba(0,0,0,0.1);
+}
+li:last-child a{
+    border-bottom: none;
 }
 li a:hover{
     background-color:#555;
@@ -151,3 +153,11 @@ main li{
 .list{
     list-style-type: disc;
 }
+/*@media only screen and (min-width: 600px) {
+    aside{
+        width: 100%;
+    }
+    main{
+        width:100%;
+    }
+}*/
