@@ -162,5 +162,7 @@ main li{
 
     }
 @media (min-width: 992px){
-
+    aside{
+        width:100%;
+    }
     }
