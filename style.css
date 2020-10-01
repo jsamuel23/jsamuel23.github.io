@@ -158,7 +158,7 @@ main li{
 .list{
     list-style-type: disc;
 }
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {
     aside{
         width: 100%;
     }
