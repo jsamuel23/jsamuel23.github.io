@@ -1,3 +1,4 @@
+
 *{
     box-sizing:border-box;
     font-family: 'Raleway', sans-serif;
@@ -10,9 +11,7 @@
     background:url("https://images.unsplash.com/photo-1585670089589-2f6cd2719a27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center fixed;
     background-size:cover;
 }
-body{
-    
-}
+
 header{
     position:absolute;
     padding:20px 0;
@@ -86,7 +85,7 @@ li a:hover{
 main{
     position:relative;
     width:50%;
-    min-height:100vh;
+    min-height:90vh;
     align-items:flex-end;
 }
 main section{
@@ -158,3 +157,88 @@ main li{
 .list{
     list-style-type: disc;
 }
+
+/* responsive settings */
+
+/* burger menu*/
+
+.burger-bars{
+    display:none;
+    width:60px;
+    height:60px;
+    position:fixed;
+    right:16px;
+    bottom:16px;
+    background-color:white;
+    background-image:url("burger.png");
+    background-repeat:no-repeat;
+    background-size: 60%;
+    background-position:center;
+    cursor:pointer;
+    z-index:200;
+    border-radius:50%;
+}
+
+.burger-menu{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:0px;
+    z-index:100;
+    background:black;
+    padding:0px;
+    transition:all 0.3s ease-in-out;
+}
+.burger-menu li a{
+    color:white;
+    white-space:nowrap;
+    opacity:0;
+    background-color: #000;
+    transition:all 0.3s ease-in-out;
+    padding:13px 0px;
+    padding-left:15px;
+    
+    
+}
+.burger-menu li a:hover{
+   background-color:white; 
+   color:black;
+}
+.burger-menu li{
+    padding:0px;
+    background-color: #000;
+}
+.burger-menu ul{
+    overflow:hidden;
+    visibility:hidden;
+    padding:0px;
+    background-color: #000;
+}
+
+/* media rules */
+
+@media only screen and (max-width: 1200px) {
+    aside {
+      display:none;
+    }
+    main{
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+    main section{
+        width:90%;
+    }
+    .burger-bars{
+        display:block;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+   
+    main section{
+        width:99%;
+    }
+    
+  }
+>>>>>>> 8493f1a7389cc1f64d4abde32780aa331c155e6f
