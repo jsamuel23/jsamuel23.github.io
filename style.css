@@ -158,11 +158,3 @@ main li{
 .list{
     list-style-type: disc;
 }
-@media (min-width: 480px){
-
-    }
-@media (min-width: 992px){
-    aside{
-        width:100%;
-    }
-    }
