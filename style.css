@@ -30,7 +30,7 @@ aside section{
     padding:20px;
     border-radius:4px;
     background:rgba(247, 247, 247 ,0.6);
-    position:fixed;
+   /* position:fixed; */
    
 }
 aside h3{
