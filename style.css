@@ -87,7 +87,7 @@ main{
     width:50%;
     min-height:90vh;
     align-items:flex-end;
-    margin-left:120px;
+    /*margin-left:120px;*/
 }
 main section{
     position:relative;
@@ -102,7 +102,7 @@ main h2{
     margin:auto;
 }
 main p{
-    max-width:600px;
+    /*max-width:600px;*/
     display:table;
     margin:auto;
     padding-bottom:20px;
