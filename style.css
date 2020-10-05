@@ -95,7 +95,7 @@ main section{
     background:rgba(247, 247, 247 ,0.6);
 }
 main h2{
-    font-size:46px;
+    font-size:40px;
     text-align:center;
     padding:40px 0;
     margin:auto;
@@ -195,7 +195,7 @@ main li{
     opacity:0;
     background-color: #000;
     transition:all 0.3s ease-in-out;
-    padding:13px 0px;
+    padding:10px 0px;
     padding-left:15px;
     
     
